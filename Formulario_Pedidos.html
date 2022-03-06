@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Cake</title>
+</head>
+<body>
+    <img src="./Cakes.png" width="150" alt="">
+<H1>Formulario para Entrega</H1>
+<br>
+<p>Por favor introduce tus datos para poder proceder con el pedido</p>
+<br>
+<H2>Fecha y hora requerida para entrega del pastel</H2>
+<br>
+<input type="date" id="fecha1" name="fecha1"><br>
+<br>
+<input type="time" id="fecha4" name="fecha4"><br>
+<br>
+<H2>Datos del cliente</H2>
+<br>
+<form action="/accion.js" id="form1" method="post">
+
+    <label for="nombre">Nombre y Apellido:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="Dir">Direccón:</label><br>
+    <input type="text" id="Dir" name="Dir"><br><br>
+
+    <label for="Mail">E-Mail:</label><br>
+    <input type="Mail" id="Mail" name="Mail"><br><br>
+
+    <label for="numero1">Télefono:</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset">
